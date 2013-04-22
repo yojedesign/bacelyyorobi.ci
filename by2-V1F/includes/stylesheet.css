@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {  }
+body { margin: 0; padding: 0; font-size: 14px; }
+.ui-mobile-viewport { background-color: #000; }
+
+.ui-page { background-color: #000; }
+.ui-page.ui-body-c.ui-page-active { background: none; }
+.ui-page.ui-body-c.ui-page-active .ui-content { background: #fff url(../images/banner_shadow.jpg) repeat-x 0px 0px; }
+.ui-page.ui-body-c.ui-page-active .ui-header { height: 75px; background: #000 url(../images/banner_main.jpg) no-repeat 50% -75px; }
+.ui-page.ui-body-c.ui-page-active .ui-header h1 { padding: 20px 0px 10px 0px; font-size: 1.4em; }
+
+
+#page.ui-page.ui-body-c.ui-page-active .ui-content { background: none; }
+
+#page { padding-top: 40px; background: #000 url(../images/banner_main.jpg) no-repeat 50% 0px; }
+#page .heading { display: none; }
+#page .logo { width: 150px; height: 90px; margin: 0px auto 0px auto; background: url(../images/logo.png) no-repeat center 0px; }
+#page .mainmenu {
+	margin: 0px 10px 0px 10px;
+	padding: 15px 15px 0px 15px;
+	border: none;
+}
+#page .mainmenu li { background: none; border: none; }
+#page .mainmenu li .ui-btn-inner { background: none; border: none; margin: 0px; padding: 0px 0px 15px 0px; }
+#page .mainmenu li a {
+	border: 1px solid #fff;
+	border-radius: 16px;
+	color: #ffffff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	background: rgba(133, 126, 123, .6) url(../images/mobile_link_arrow.png) no-repeat right 50%;
+	font-size: 1.15em;
+	margin-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 4px;
+	margin-left: 2px;
+	padding-top: 7px;
+	padding-right: 20px;
+	padding-bottom: 7px;
+	padding-left: 50px;
+}
+
+.ui-bar-a.ui-footer { background: #000; border: none; border-top: 1px solid #444; }
+.ui-bar-a.ui-footer h4.ui-title { font-size: .8em; font-weight: normal; text-align: center; margin: 0px; padding: 20px 30px 20px 30px; }
+
+.ui-content {  }
+span.ui-icon.ui-icon-arrow-r { display: none; }
+
+h2 { font-size: 1.5em; }
+
+figure { width: 120px; float: right; margin: 0px 0px 20px 15px; padding: 0px 0px 0px 10px; border-left: 1px solid #ddd; }
+figure figcaption { font-size: .8em; color: #777; line-height: .8em; }

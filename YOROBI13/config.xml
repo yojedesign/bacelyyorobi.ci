@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.coworkingspace.app"
+    version   = "3.1.8">
+<name>Bacely Yorobi</name>
+<description>
+Application to following Bacely YoroBI
+</description>
+<author href="Bacely YoroBi" email="bacely.yorobi@gmail.com">
+Bacely YoroBi
+</author>
+<!--<preference name="show-splash-screen-spinner" value="true" />
+ <preference name="orientation" value="portrait" />-->
+ <preference name="fullscreen" value="true" />
+ <preference name="prerendered-icon" value="true" />
+<icon src="icons/ico.jpg" />
+<icon src="icons/ico.jpg" width="57" height="57" />
+<icon src="icons/ico.jpg" gap:platform="ios" width="72" height="72" />
+<icon src="icons/ico.jpg" width="114" height="114" />
+<icon src="icons/ico.jpg" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/ico.jpg" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/ico.jpg" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/ico.jpg" gap:platform="blackberry" />
+<icon src="icons/ico.jpg" gap:platform="winphone" />
+<icon src="icons/ico.jpg" gap:platform="winphone" gap:role="background" />
+<icon src="icons/ico.jpg" gap:platform="webos" />
+<icon src="icons/ico.jpg" gap:platform="webos" gap:role="mini" />
+<preference name="permissions" value="none"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<gap:splash src="splash.png" />
+<gap:splash src="splash.png" />
+<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
+<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
+<gap:splash src="splash/ios/Default.png" width="320" height="480" />
+<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
+<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/bb/splash.jpg" gap:platform="blackberry" />
+<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
+</widget>
